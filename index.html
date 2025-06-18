@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Siliguri Puja Pandals 2025</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    
+
+
+
+
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <i class="fas fa-om"></i>
+                    <span>Siliguri Puja Guide</span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#pandals" class="nav-link">Pandals</a></li>
+                    <li><a href="#map" class="nav-link">Map</a></li>
+                    <li><a href="#events" class="nav-link">Events</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Discover Siliguri's<br><span class="highlight">Magnificent Puja Pandals</span></h1>
+            <p class="hero-description">Explore the most beautiful and culturally rich Durga Puja pandals across Siliguri. Find locations, timings, and special attractions all in one place.</p>
+            <div class="hero-buttons">
+                <button class="btn btn-primary" onclick="scrollToSection('pandals')">
+                    <i class="fas fa-search"></i>
+                    Explore Pandals
+                </button>
+                <button class="btn btn-secondary" onclick="scrollToSection('map')">
+                    <i class="fas fa-map-marker-alt"></i>
+                    View Map
+                </button>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="https://images.pexels.com/photos/6896070/pexels-photo-6896070.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Durga Puja Celebration">
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="stat-number" data-target="50">0</div>
+                    <div class="stat-label">Pandals</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-target="15">0</div>
+                    <div class="stat-label">Areas Covered</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-target="100">0</div>
+                    <div class="stat-label">Events</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number" data-target="5">0</div>
+                    <div class="stat-label">Days of Celebration</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Pandals Section -->
+    <section id="pandals" class="pandals">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Pandals</h2>
+                <p class="section-description">Discover the most popular and beautifully decorated pandals in Siliguri</p>
+            </div>
+
+            <!-- Filter Buttons -->
+            <!-- <div class="filter-buttons">
+                <button class="filter-btn" data-filter="modern">Modern</button>
+                <button class="filter-btn" data-filter="theme">Theme Based</button>
+            </div> -->
+
+            <!-- Pandals Grid -->
+            <div class="pandals-grid" id="pandalsGrid">
+                <!-- Pandal cards will be dynamically generated -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section id="map" class="map-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Pandal Locations</h2>
+                <p class="section-description">Interactive map showing all pandal locations across Siliguri</p>
+            </div>
+            <div class="map-container">
+                <div class="map-placeholder">
+                    <i class="fas fa-map-marked-alt"></i>
+                    <h3>Interactive Map</h3>
+                    <p>Click on markers to view pandal details</p>
+                    <div class="map-legend">
+                        <div class="legend-item">
+                            <span class="legend-color traditional"></span>
+                            <span>Traditional Pandals</span>
+                        </div>
+                        <div class="legend-item">
+                            <span class="legend-color modern"></span>
+                            <span>Modern Pandals</span>
+                        </div>
+                        <div class="legend-item">
+                            <span class="legend-color theme"></span>
+                            <span>Theme Based</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Events Section -->
+    <section id="events" class="events">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Special Events & Programs</h2>
+                <p class="section-description">Don't miss these special cultural programs and events</p>
+            </div>
+            <div class="events-timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">
+                        <span class="date">Oct 20</span>
+                        <span class="day">Sasthi</span>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Bodhon & Kalparambha</h3>
+                        <p>Traditional awakening ceremony and beginning of festivities</p>
+                        <span class="time"><i class="fas fa-clock"></i> 6:00 AM onwards</span>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">
+                        <span class="date">Oct 21</span>
+                        <span class="day">Saptami</span>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Cultural Programs</h3>
+                        <p>Dance performances, music concerts, and cultural shows</p>
+                        <span class="time"><i class="fas fa-clock"></i> 7:00 PM onwards</span>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">
+                        <span class="date">Oct 22</span>
+                        <span class="day">Ashtami</span>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Sandhi Puja</h3>
+                        <p>Special worship ceremony during the transition period</p>
+                        <span class="time"><i class="fas fa-clock"></i> 11:30 PM - 12:30 AM</span>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">
+                        <span class="date">Oct 24</span>
+                        <span class="day">Dashami</span>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Visarjan Procession</h3>
+                        <p>Grand immersion procession to the river</p>
+                        <span class="time"><i class="fas fa-clock"></i> 2:00 PM onwards</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h2>Get in Touch</h2>
+                    <p>Have questions about pandal locations or events? We're here to help!</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+91 98765 43210</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>info@siliguripuja.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Siliguri, West Bengal</span>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-paper-plane"></i>
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="logo">
+                        <i class="fas fa-om"></i>
+                        <span>Siliguri Puja Guide</span>
+                    </div>
+                    <p>Your complete guide to experiencing the magnificent Durga Puja celebrations in Siliguri.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#pandals">Pandals</a></li>
+                        <li><a href="#map">Map</a></li>
+                        <li><a href="#events">Events</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Areas Covered</h3>
+                    <ul>
+                        <li>Mahabirsthan</li>
+                        <li>Hashmi Chowk</li>
+                        <li>Sevoke Road</li>
+                        <li>Hill Cart Road</li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <p><i class="fas fa-phone"></i> +91 98765 43210</p>
+                    <p><i class="fas fa-envelope"></i> info@siliguripuja.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Siliguri Puja Guide. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-top" id="scrollTop">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+</body>
+</html>

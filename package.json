@@ -1,0 +1,24 @@
+{
+  "name": "siliguri-puja-pandals",
+  "version": "1.0.0",
+  "description": "A website for displaying Puja Pandals in Siliguri for locals",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx serve . -p 3000",
+    "start": "npx serve . -p 3000",
+    "build": "echo 'Build complete - static files ready'",
+    "preview": "npx serve . -p 4173"
+  },
+  "keywords": [
+    "puja",
+    "pandal",
+    "siliguri",
+    "durga-puja",
+    "festival"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "^14.2.1"
+  }
+}
