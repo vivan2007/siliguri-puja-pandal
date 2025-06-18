@@ -10,7 +10,7 @@ const pandalsData = [
         timing: "6:00 AM - 11:00 PM",
         rating: 4.8,
         specialFeatures: ["Traditional Dhak", "Cultural Programs", "Prasad Distribution"],
-        page: "product-card.html"
+       
     },
     {
         id: 2,
